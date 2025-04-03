@@ -54,7 +54,7 @@ const Product = ({ product }) => {
   variant='primary'
   type='button'
   className='mt-2'
-  onClick={() => window.open('/Vr.html', '_blank')}
+  onClick={() => window.open('http://127.0.0.1:5500/Vr.html', '_blank')}
 >
   View in AR
 </Button>
