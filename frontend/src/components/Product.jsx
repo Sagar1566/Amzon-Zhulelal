@@ -48,7 +48,18 @@ const Product = ({ product }) => {
         onClick={addToCartHandler}
       >
         Add To Cart
+        
       </Button>
+      <Button
+  variant='primary'
+  type='button'
+  className='mt-2'
+  onClick={() => window.open('/Vr.html', '_blank')}
+>
+  View in AR
+</Button>
+
+
     </Card>
   );
 };
